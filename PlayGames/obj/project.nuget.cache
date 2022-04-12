@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Be27GFS6D3CjDrDhQeZZCGRDtQoHWNAY9cMNCkW2WKL0iokf1xXl9SIdp1C5sycRCLYhvHNbpFVDgFRx0aCK4w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\LENOVO\\source\\repos\\PlayGames\\PlayGames\\PlayGames.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

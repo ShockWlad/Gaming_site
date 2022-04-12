@@ -1,0 +1,103 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+html{height: 100%}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: gainsboro;
+	color: #333;
+	font-family: 'Segoe UI', Arial, sans-serif;
+	font-size: 1em;
+	line-height: 135%;
+	float: left
+}
+
+a {
+	color: #1700ff;
+	text-decoration: none
+}
+
+a:hover{
+	color: black
+}
+
+a, a:hover {
+	-webkit-transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-o-transition: all.6s ease;
+	transition: all.6s ease
+}
+
+.clear{
+	clear: both
+}
+
+/*Стили для шапки*/
+
+header{
+	width: 98%;
+	float: left;
+	padding: 1%;
+	background-color: cornsilk;
+	border-bottom: 2px solid silver;
+}
+
+header #logo{
+	width: 40%;
+	float: left;
+}
+
+header #logo a{
+	color: darkred;
+	font-size: 2em;
+	font-family: Times New Roman, sans-serif;
+}
+
+header #menuHead {
+	width: 25%;
+	float: left;
+	font-size: 1.5em;
+}
+
+header #menuHead div{
+	float: left;
+	padding: 5px;
+	background-color: darkred;
+	border-radius: 10px;
+}
+
+header #menuHead div a{
+	color: cornsilk;
+}
+
+header #menuHead div:hover{
+	background-color: brown;
+}
+
+header #regAuth {
+	width: 30%;
+	float: left;
+	text-align: right;
+}
+
+footer #footer {
+	position: fixed; /* Фиксированное положение */
+	left: 0;
+	bottom: 0; /* Левый нижний угол */
+	padding: 10px; /* Поля вокруг текста */
+	background-color: cornsilk; /* Цвет фона */
+	width: 100%; /* Ширина слоя */
+}
+
+

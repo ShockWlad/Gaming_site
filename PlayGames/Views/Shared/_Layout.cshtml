@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] - PlayGames</title>
+	<link rel="stylesheet" href="~/css/site.css" />
+	@RenderSection("css", false)
+</head>
+<body>
+	<header>
+		<div id = "logo">
+			<a asp-area="" asp-controller="Home" asp-action="Play1">PlayGames</a>
+		</div>
+		<div id="menuHead">
+			<div style="margin-right: 5%"><a asp-area="" asp-controller="Home" asp-action="Play1">Game1</a></div>
+            <div><a asp-area="" asp-controller="Home" asp-action="Play2">Game2</a></div>
+		</div>
+		<div id ="regAuth">
+			<div>Pегистрация/Авторизация
+		</div>
+	</header>
+    <div>
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+        <div id="footer">
+            &copy; 2022 - PlayGames
+        </div>
+    </footer>
+    @RenderSection("js", false)
+</body>
+</html>
